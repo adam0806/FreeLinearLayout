@@ -154,7 +154,7 @@ class FreeLinearLayout : LinearLayout {
                 if(i != -1) {
                     mNowTouchIndex = i
                 }
-                postDelayed({
+                handler.postDelayed({
                     if((mType != TYPE.VERTICAL && mType != TYPE.HORIZONTAL) && !consumeClick){
                         consumeClick = true
                         mType = TYPE.LONG_CLICK
@@ -229,6 +229,8 @@ class FreeLinearLayout : LinearLayout {
                     }
                     mEventListener?.eventChange(mType, mNowTouchIndex)
                 }
+
+                handler.removeCallbacksAndMessages(null)
 
                 logHead = "UP  "
 
