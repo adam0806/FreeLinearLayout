@@ -75,6 +75,6 @@ allprojects{
 }  
 
 dependencies {  
-  implementation 'com.github.adam0806:FreeLinearLayout:1.0.0'  
+  implementation 'com.github.adam0806:FreeLinearLayout:1.0.1'  
 }  
 ```
