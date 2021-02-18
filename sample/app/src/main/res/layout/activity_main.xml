@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="靜止"/>
+    </ScrollView>
+    <com.adam.freelinearlayout.FreeLinearLayout
+        android:id="@+id/freeLinearLayout"
+        android:clickable="true"
+        android:background="#FFCCDD"
+        android:layout_width="@dimen/myproduct_item_width"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#002000"
+            android:textColor="@color/white"
+            android:text="00 00  00   00    00     00      00       00        00        00          00           00_00__00_00____00_____00______00"/>
+
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#004000"
+            android:textColor="@color/white"
+            android:text="01 01  01   01    01     01      01       01        01        01          01           01_01__01_01____01_____01______01"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/white"
+            android:background="#006000"
+            android:text="02 02  02   02    02     02      02       02        02        02          02           02_02__02_02____02_____02______02"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="80dp"
+            android:gravity="left|center_vertical"
+            android:background="#008000"
+            android:textColor="@color/white"
+            android:text="03 03  03   03    03     03      03       03        03        03          03           03_03__03_03____03_____03______03"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/white"
+            android:background="#00A000"
+            android:text="04 04  04   04    04     04      04       04        04        04          04           04_04__04_04____04_____04______04"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#00C000"
+            android:textColor="@color/white"
+            android:text="05 05  05   05    05     05      05       05        05        05          05           05_05__05_05____05_____05______05"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#FF0000"
+            android:text="06 06  06   06    06     06      06       06        06        06          06           06_06__06_06____06_____06______06"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#FF5777"
+            android:text="07 07  07   07    07     07      07       07        07        07          07           07_07__07_07____07_____07______07"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#FF8999"
+            android:text="08 08  08   08    08     08      08       08        08        08          08           08_08__08_08____08_____08______08"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#FFCBBB"
+            android:text="09 09  09   09    09     09      09       09        09        09          09           09_09__09_09____09_____09______09"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#CFFFBB"
+            android:text="10 10  10   10    10     10      10       10        10        10          10           10_10__10_10____10_____10______10"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#CCFFFF"
+            android:text="11 11  11   11    11     11      11       11        11        11          11           11_11__11_11____11_____11______11"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#DDCFFF"
+            android:text="12 12  12   12    12     12      12       12        12        12          12           12_12__12_12____12_____12______12"/>
+        <TextView
+            android:layout_width="@dimen/myproduct_item_width"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:background="#EECCFF"
+            android:text="13 13  13   13    13     13      13       13        13        13          13           13_13__13_13____13_____13______13"/>
+    </com.adam.freelinearlayout.FreeLinearLayout>
+</LinearLayout>
